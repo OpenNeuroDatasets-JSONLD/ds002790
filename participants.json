@@ -7,15 +7,16 @@
         "TermURL": "nb:Age",
         "Label": ""
       },
-      "Transformation": {
-        "TermURL": "nb:FromFloat",
-        "Label": "float data"
-      },
       "MissingValues": [
         "",
         "n/a",
         " "
-      ]
+      ],
+      "Format": {
+        "TermURL": "nb:FromFloat",
+        "Label": "float data"
+      },
+      "VariableType": "Continuous"
     }
   },
   "sex": {
@@ -44,7 +45,8 @@
         " ",
         "nan",
         "n/a"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "BMI": {
@@ -86,7 +88,8 @@
       "IsPartOf": {
         "TermURL": "snomed:718148002",
         "Label": ""
-      }
+      },
+      "VariableType": "Collection"
     }
   },
   "NEO_A": {
@@ -115,7 +118,7 @@
         "TermURL": "nb:ParticipantID",
         "Label": ""
       },
-      "Identifies": "participant"
+      "VariableType": "Identifier"
     },
     "Description": "There should have been a description here, but there wasn't. :("
   }
